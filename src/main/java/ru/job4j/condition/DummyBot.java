@@ -8,7 +8,7 @@ public class DummyBot {
         } else if ("Bye.".equals(question)) {
             rsl = "See you later.";
         }
-    return rsl;
+        return rsl;
     }
 
     public static void main(String[] args) {

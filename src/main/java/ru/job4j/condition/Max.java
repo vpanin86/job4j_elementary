@@ -2,12 +2,11 @@ package ru.job4j.condition;
 
 public class Max {
     public static int max(int left, int right) {
-        int result = left > right ? left : right;
-        System.out.println("Максимальное число: " + result);
-        return result;
+        return left > right ? left : right;
     }
 
     public static void main(String[] args) {
-        Max.max(4, 6);
+        System.out.println("Максимальное число: "
+                + Max.max(4, 6));
     }
 }

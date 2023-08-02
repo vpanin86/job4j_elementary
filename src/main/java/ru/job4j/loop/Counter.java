@@ -8,6 +8,7 @@ public class Counter {
         }
         return sum;
     }
+    //For commit
 
     public static int sumByEven(int start, int finish) {
         int sum = 0;
